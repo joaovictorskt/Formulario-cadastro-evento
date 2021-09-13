@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="index.css">
+    <title>Cadastro</title>
+</head>
+<body> 
+
+    <div>
+        <h1 id="titulo"><mark>Cadastro de Eventos<mark></h1>
+        <br>
+       
+        <form>
+            <fieldset class="grupo">
+                <div>
+                    <label for="nome"><strong>nome</strong><br></label>
+                    <input type="text" name="nome" id="nome" required>
+                
+                  </div> 
+
+                  <div>
+                 <label for="sobrenome"><b>sobrenome<b><br></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+
+
+                  </div>
+                
+                 <div class="campo">
+                    <p>Data de Nascimento</p>
+                    <input type="date" id="Data Nascimento" required>
+                    <br>
+
+                    
+                 </div>
+
+                 <div class="campo">
+                    <p><b>Insira login e senha<b></p>
+                 </div>
+                 <div class="campo">
+                    <label><b>email<b></label>
+                    <input type= "email" name="email" id="email" required>
+                 </div>
+
+                 <div class="campo">
+                    <label><b>senha<b></label>
+                    <input type="password" name="senha" id="senha">
+
+
+                    
+                   
+                 </div>
+                 
+                    
+                 <div class="campo">
+                    <label><mark>Eventos<mark></label>
+                    <select id="eventos" required>
+                        <option selected disabled value="">selecione</option>
+                        <option> Festa Fantasia </option>
+                        <option> Blackout </option>
+                        <option> Noite das Cores</option>
+
+                 </div>
+                 <div> 
+                    
+                 <input class="botao" type="button" name="enviar" value="enviar">
+                    
+            
+
+                 </div>
+
+
+
+
+            </fieldset class="grupo">
+            </form>
+        
+        
+    </div>
+</body>
+</html>
